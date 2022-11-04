@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'homepage.dart';
+import 'settingspage.dart';
 
 void main() {
   runApp( MyApp() );
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Random Flutter App',
-      theme: ThemeData(primarySwatch: Colors.red),
+      theme: ThemeClass.lightTheme,
       home: HomePage(),
     );
   }
